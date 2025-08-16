@@ -12,6 +12,6 @@ IQRL/DRIVER ISSUES
 
 If you have experiencing/being blocked from using the software by a error emplaced correlative to driver issues relating to the screen or etc. Please try the following:
 
-Turning off your antivirus.
-Clearing out %temp%
-Within the folder: "INDEPENDENCIES", there should be exactly 16 DLLs.
+Turning off your antivirus. (Turning off your antivirus makes the software be able to payload the DLLs to the processes accordingly.)
+Clearing out %temp% (Temp may be bloating the software and due to storage error, no matter how much free storage you have, it could hinder the software.)
+Within the folder: "INDEPENDENCIES", there should be exactly 16 DLLs. (If even one DLL is missing, the software will display an driver error due to a typecasting error.)
