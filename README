@@ -15,3 +15,60 @@ If you have experiencing/being blocked from using the software by a error emplac
 Turning off your antivirus. (Turning off your antivirus makes the software be able to payload the DLLs to the processes accordingly.)
 Clearing out %temp% (Temp may be bloating the software and due to storage error, no matter how much free storage you have, it could hinder the software.)
 Within the folder: "INDEPENDENCIES", there should be exactly 16 DLLs. (If even one DLL is missing, the software will display an driver error due to a typecasting error.)
+
+MACRO AUTOMATION
+
+This macro has a built in library of valued and emplaced statement. For every item in the list, they are able to be configured via numerical orders, as shown below.
+(TERMINOLOGIES BELOW THIS MESSAGE)
+C_1, Carrot
+berry, Strawberry
+Bberry, Blue Berry
+OT, Orange Tulip
+tomat_o, Tomato
+daff_0, Daffodil
+WM, Watermelon
+pump_1kin, Pumpkin
+replacement_ID_apple, Apple
+BB, Bamboo
+cc_nut, Coconut
+Cact_2, Cactus
+GAG_DF, Dragonfruit
+mango_model_1, Mango (PS, this variable is very unstable could lead to macro being stopped)
+GRP, Grape
+MSHRM, Mushroom
+PpR, Pepper
+CC, Cacao
+stalk_bean_plant_1, BeanStalk
+EmLily, Ember Lily
+SA, Sugar Apple
+bud_burning_replacement_2, Burning Bud
+EXTcone, Giant Pinecone
+Eberry, Elder Strawberry
+++++++++++++++++++++++++++++++++++++++++++++++++++
+ALLOWED_FRUITS = {
+    0.5:"C_1",
+    1:"berry",
+    2:"Bberry",
+    2.5:"OT",
+    2.7:"tomat_o",
+    3:"daff_0",
+    3.2:"WM",
+    3.5:"pump_1kin",
+    4:"replacement_ID_apple",
+    4.2:"BB",
+    4.5:"cc_nut",
+    5:"Cact_2",
+    7:"GAG_DF",
+    7.1:"mango_model_1",
+    7.8:"GRP",
+    9:"MSHRM",
+    11:"PpR",
+    13:"CC",
+    15:"stalk_bean_plant_1",
+    20:"EmLily",
+    30:"SA",
+    32:"bud_burning_replacement_2",
+    37:"EXTcone",
+    50:"Eberry"
+}
+The lowest of which being a Carrot, to the highest being Eberry. This will be reworked soon.
